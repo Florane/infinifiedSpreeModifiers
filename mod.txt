@@ -1,0 +1,21 @@
+{
+	"blt_version" : 2,
+	"name" : "Infinified Spree Modifiers",
+	"description" : "Makes certain modifiers repeatable and adds new modifiers",
+	"author" : " no",
+	"version" : "1.0.0",
+	"color" : "0.937 0.749 0.015",
+	"hooks" : [
+		{ "hook_id" : "lib/managers/crimespreemanager", "script_path" : "main.lua"},
+		{ "hook_id" : "lib/managers/modifiersmanager", "script_path" : "main.lua"},
+		{ "hook_id" : "lib/managers/modifiersmanager", "script_path" : "modifiercivilianpager.lua"},
+		{ "hook_id" : "lib/managers/modifiersmanager", "script_path" : "modifiermoretazers.lua"},
+		{ "hook_id" : "lib/units/civilians/logics/civilianlogicinactive", "script_path" : "civilianpager.lua"},
+	]
+        "updates" : [
+            {
+                "identifier" : "InfinifiedSpreeModifiers",
+                "host" : {"meta" : "https://raw.githubusercontent.com/Florane/infinifiedSpreeModifiers/refs/heads/main/meta.json"}
+            }
+        ]
+}
