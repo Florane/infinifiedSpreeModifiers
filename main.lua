@@ -1,4 +1,4 @@
-blt.vm.dofile(ModPath .. "modifiercivilianpager.lua")
+blt.vm.dofile(ModPath .. "modifiers/modifiercivilianpager.lua")
 
 --always assume repeating modifiers
 local __modifiers_to_select = CrimeSpreeManager.modifiers_to_select

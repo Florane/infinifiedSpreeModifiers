@@ -3,7 +3,7 @@
 	"name" : "Infinified Spree Modifiers",
 	"description" : "Makes certain modifiers repeatable and adds new modifiers",
 	"author" : " no",
-	"version" : "1.0.1",
+	"version" : "1.0.2",
 	"color" : "0.937 0.749 0.015",
 	"hooks" : [
 		{ "hook_id" : "lib/managers/crimespreemanager", "script_path" : "main.lua"},
