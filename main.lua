@@ -1,5 +1,11 @@
 blt.vm.dofile(ModPath .. "modifiercivilianpager.lua")
 
+--always assume repeating modifiers
+local __modifiers_to_select = CrimeSpreeManager.modifiers_to_select
+function CrimeSpreeManager:modifiers_to_select(table_name,_,...)
+    return __modifiers_to_select(self,table_name,true,...)
+end
+
 table.insert(tweak_data.crime_spree.modifiers.stealth,{
 	id = "civilian_pager",
 	icon = "crime_spree_civs_killed",
