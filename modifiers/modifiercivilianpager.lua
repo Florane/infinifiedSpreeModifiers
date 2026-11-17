@@ -10,5 +10,4 @@ function ModifierCivilianPager:trigger_pager(data)
         data.brain:begin_alarm_pager()
         return
     end
-    log("PAGER ACTIVE")
 end

@@ -1,5 +1,4 @@
 Hooks:PreHook(CivilianLogicInactive,"_set_interaction","_set_pager",function(data,my_data)
-    log("PAGER TRIGGERABLE")
     managers.modifiers:run_func("trigger_pager",data)
 end)
 

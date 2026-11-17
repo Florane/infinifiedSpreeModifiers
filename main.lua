@@ -20,10 +20,7 @@ tweak_data.crime_spree.repeating_modifiers["loud"] = {
 		class = "ModifierHealSpeed",
 		prerequisite = "medic_heal_2",
 		data = {
-			speed = {
-				5,
-				"add"
-			}
+			speed = {5,"add"}
 		}
 	},
 	{
@@ -32,10 +29,7 @@ tweak_data.crime_spree.repeating_modifiers["loud"] = {
 		class = "ModifierTaserOvercharge",
 		prerequisite = "taser_overcharge",
 		data = {
-			speed = {
-				10,
-				"add"
-			}
+			speed = {10,"add"}
 		}
 	},
 	{
@@ -44,10 +38,7 @@ tweak_data.crime_spree.repeating_modifiers["loud"] = {
 		class = "ModifierMoreMedics",
 		prerequisite = "medic_2",
 		data = {
-			inc = {
-				1,
-				"add"
-			}
+			inc = {1,"add"}
 		}
 	},
 	{
@@ -56,10 +47,7 @@ tweak_data.crime_spree.repeating_modifiers["loud"] = {
 		class = "ModifierDozerRage",
 		prerequisite = "dozer_rage",
 		data = {
-			damage = {
-				10,
-				"add"
-			}
+			damage = {10,"add"}
 		}
 	},
 	{
@@ -68,10 +56,7 @@ tweak_data.crime_spree.repeating_modifiers["loud"] = {
 		class = "ModifierMoreDozers",
 		prerequisite = "dozer_2",
 		data = {
-			inc = {
-				1,
-				"add"
-			}
+			inc = {1,"add"}
 		}
 	},
 	{
@@ -80,10 +65,7 @@ tweak_data.crime_spree.repeating_modifiers["loud"] = {
 		class = "ModifierMedicAdrenaline",
 		prerequisite = "medic_adrenaline",
 		data = {
-			damage = {
-				5,
-				"add"
-			}
+			damage = {5,"add"}
 		}
 	},
 	{
@@ -92,10 +74,7 @@ tweak_data.crime_spree.repeating_modifiers["loud"] = {
 		class = "ModifierMedicRage",
 		prerequisite = "medic_rage",
 		data = {
-			damage = {
-				10,
-				"add"
-			}
+			damage = {10,"add"}
 		}
 	},
     {
@@ -103,10 +82,7 @@ tweak_data.crime_spree.repeating_modifiers["loud"] = {
         icon = "crime_spree_more_medics",
         class = "ModifierMoreTazers",
         data = {
-            inc = {
-                1,
-                "add"
-            }
+            inc = {1,"add"}
         }
     }
 }
@@ -117,10 +93,7 @@ tweak_data.crime_spree.repeating_modifiers["stealth"] = {
 		class = "ModifierLessConcealment",
 		prerequisite = "conceal_2",
 		data = {
-			conceal = {
-				1,
-				"add"
-			}
+			conceal = {1,"add"}
 		}
 	}
 }
